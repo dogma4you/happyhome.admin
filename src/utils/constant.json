@@ -1,0 +1,104 @@
+{
+  "propertyConstants": {
+    "SELLER_TYPES": {
+      "HOMEOWNER": 1,
+      "REAL ESTATE AGENT": 2,
+      "WHOLESALER": 3
+    },
+    "PROPERTY_TYPE": {
+      "HOME": 1,
+      "MULTI FAMILY": 2
+    },
+    "HOME_TYPE": {
+      "DETACHED": 1,
+      "TOWNHOUSE CONDO": 2,
+      "MULTI FAMILY": 3
+    },
+    "HOA_TYPE": {
+      "MONTHLY": 1,
+      "ANNUAL": 2
+    }
+  },
+  "propertyStatus": {
+    "PENDING": 1,
+    "APPROVED": 2,
+    "CANCELED": 3,
+    "ON APPROVAL": 4
+  },
+  "contractStatus": {
+    "APPROVED": 1,
+    "PUBLISHED": 2,
+    "PURCHASED": 3,
+    "CLOSED": 4
+  },
+  "transactionStatus": {
+    "PENDING": 1,
+    "RECEIVED": 2,
+    "NOT RECEIVED": 3
+  },
+  "propertyOptions": {
+    "HEATING": {
+      "GAS": 1,
+      "ELECTRIC": 2,
+      "BASEBOARD": 3,
+      "OTHER": 4
+    },
+    "AIR_CONDITIONING": {
+      "CENTRAL AIR": 1,
+      "WINDOW UNIT": 2,
+      "OTHER": 3
+    },
+    "WATER_SUPPLY": {
+      "MUNICIPAL SUPPLY": 1,
+      "WELL": 2
+    },
+    "SEWER": {
+      "MUNICIPAL WASTE": 1,
+      "SEPTIC": 2
+    },
+    "ELECTRIC_PANEL": {
+      "AMP 100": 1,
+      "AMP 200": 2,
+      "UNKNOWN OTHER": 3
+    },
+    "EXTERIOR_TYPE": {
+      "VINYL": 1,
+      "ALUMINUM": 2,
+      "BRICK": 3,
+      "CEDAR": 4,
+      "OTHER": 5
+    }
+  },
+  "propertyDescriptionTypes": {
+    "DETACHED": 1,
+    "TOWNHOUSE": 2
+  },
+  "userActivityTypeEnum": {
+    "Buyer": 1,
+    "Buyer - Seller": 2,
+    "Seller": 3,
+    "Qualified Buyer": 4,
+    "Qualified Buyer - Seller": 5,
+    "Listed Seller": 6,
+    "HH Employee": 7,
+    "HH Admin": 8,
+    "Inactive Client": 9,
+    "Banned Client": 10,
+    "Inactive Employee": 11,
+    "Banned Employee": 12
+  },
+  "transactionTypes": {
+    "Contract Purchase Balance Deposit": 1,
+    "Unlock Listings Credit Plan Purchase": 2,
+    "Unlock Listings Credit Balance Deposit By Admin": 3,
+    "Refund Credit By Admin": 4,
+    "Balance Fill By Admin": 5
+  },
+  "notificationTypes": {
+    "offer": 1,
+    "transaction": 2,
+    "registration": 3,
+    "unlockListings": 4,
+    "purchase": 5
+  }
+}
